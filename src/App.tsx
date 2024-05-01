@@ -9,6 +9,9 @@ function App() {
   const handleOnSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(searchInput.current?.value);
+    /* 
+    ! aqui deberias hacer la llamada a la Backend
+    */
   };
 
   const handleCreateModal = () => {
